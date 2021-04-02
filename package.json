@@ -1,0 +1,30 @@
+{
+  "name": "chatt-users",
+  "version": "1.0.0",
+  "description": "chat with users learning Socket.io node&express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkpk/chatroom-node.git"
+  },
+  "author": "Pratibha Kumar K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imkpk/chatroom-node/issues"
+  },
+  "homepage": "https://github.com/imkpk/chatroom-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
